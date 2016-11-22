@@ -41,5 +41,5 @@ ZSH_THEME_GIT_PROMPT_SHA_AFTER="%{$WHITE%}]"
 # Prompt format
 PROMPT='
 $(virtualenv_prompt_info)%{$BLACK%}%n@%m%{$BLACK%}:%{$BLACK%}%~%u$(parse_git_dirty)$(git_prompt_ahead)%{$RESET_COLOR%}
-%{$WHITE%}>%{$RESET_COLOR%} '
+%{$WHITE%}λ%{$RESET_COLOR%} '
 RPROMPT='%{$GREEN_BOLD%}$(current_branch)$(git_prompt_short_sha)$(git_prompt_status)$(hg_prompt_info)%{$RESET_COLOR%}'
