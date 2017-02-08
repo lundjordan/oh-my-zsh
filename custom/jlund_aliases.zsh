@@ -28,9 +28,7 @@ alias -g GCOF='coffee -w -c -o public/js backbone-src/**/*.coffee'
 
 source ~/bin/dotfiles/bash/aliases
 alias todo=task
-
 alias dled='ls -t ~/Downloads/**/* | head -n1'
+alias ubunotes='vim ~/bin/dotfiles/notes/ubuntu_fresh_install.md'
 
 # oh-my-zsh overrides
-#
-alias ubunotes='vim ~/bin/dotfiles/notes/ubuntu_fresh_install.md'
