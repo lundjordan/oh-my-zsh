@@ -1,1 +1,1 @@
-. ~/bin/dotfiles/bash/env
+. ~/devel/personal/dotfiles/zsh/env.zsh
